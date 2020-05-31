@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f7d0ce4-cbc1-4e44-aa75-3c30c6d43d99" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RectangleTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComplexRectangle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexRectangle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ComplexRectangle/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ComplexRectangle/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ComplexRectangle/TestRectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestRectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestRectangle.kt" afterDir="false" />
-    </list>
+    <list default="true" id="9f7d0ce4-cbc1-4e44-aa75-3c30c6d43d99" name="Default" comment="convert to kotlin and refactored to fewer LOC" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +71,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Kotlin.TestRectangleKt">
     <configuration name="TestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -146,8 +144,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532362478290</updated>
-      <workItem from="1590952261355" duration="5473000" />
+      <workItem from="1590952261355" duration="5800000" />
     </task>
+    <task id="LOCAL-00001" summary="convert to kotlin and refactored to fewer LOC">
+      <created>1590957954335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590957954335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +172,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updated the README.md" />
+    <MESSAGE value="convert to kotlin and refactored to fewer LOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert to kotlin and refactored to fewer LOC" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1306" height="175" key="GridCell.Tab.0.bottom" timestamp="1590956679811">
@@ -184,14 +193,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590956679811" />
+    <state x="212" y="59" key="MergeDialog" timestamp="1590958059206">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="212" y="59" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590958059206" />
+    <state x="571" y="236" width="389" height="265" key="MultipleFileMergeDialog" timestamp="1590958068520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="571" y="236" width="389" height="265" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1590958068520" />
     <state x="100" y="105" width="1166" height="528" key="ShowDiffWithBranchDialog" timestamp="1590956168435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="105" width="1166" height="528" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1590956168435" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1590956703708">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1590958106192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590956703708" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590958106192" />
     <state x="388" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590957753638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
