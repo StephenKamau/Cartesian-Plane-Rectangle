@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f7d0ce4-cbc1-4e44-aa75-3c30c6d43d99" name="Default" comment="convert to kotlin and refactored to fewer LOC" />
+    <list default="true" id="9f7d0ce4-cbc1-4e44-aa75-3c30c6d43d99" name="Default" comment="Merge remote-tracking branch 'origin/kotlin' into kotlin&#10;&#10;# Conflicts:&#10;#&#9;src/Rectangle.kt&#10;#&#9;src/TestRectangle.kt">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComplexRectangle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComplexRectangle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ComplexRectangle/META-INF/ComplexRectangle.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ComplexRectangle/META-INF/ComplexRectangle.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ComplexRectangle/TestRectangleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestRectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,9 +73,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533827902027" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -79,8 +89,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\IdeaProjects\Cartesian-Plane-Rectangle\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestRectangleKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="TestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestRectangle" />
       <module name="ComplexRectangle" />
@@ -102,14 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRectangleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="ComplexRectangle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TestRectangleKt" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,7 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestRectangleKt" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Application.TestRectangle" />
         <item itemvalue="Kotlin.TestRectangleKt" />
         <item itemvalue="Application.TestRectangle" />
@@ -144,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532362478290</updated>
-      <workItem from="1590952261355" duration="5800000" />
+      <workItem from="1590952261355" duration="8261000" />
     </task>
     <task id="LOCAL-00001" summary="convert to kotlin and refactored to fewer LOC">
       <created>1590957954335</created>
@@ -153,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590957954335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/kotlin' into kotlin&#10;&#10;# Conflicts:&#10;#&#9;src/Rectangle.kt&#10;#&#9;src/TestRectangle.kt">
+      <created>1590958202608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590958202608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,25 +194,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated the README.md" />
     <MESSAGE value="convert to kotlin and refactored to fewer LOC" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert to kotlin and refactored to fewer LOC" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/kotlin' into kotlin&#10;&#10;# Conflicts:&#10;#&#9;src/Rectangle.kt&#10;#&#9;src/TestRectangle.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/kotlin' into kotlin&#10;&#10;# Conflicts:&#10;#&#9;src/Rectangle.kt&#10;#&#9;src/TestRectangle.kt" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1306" height="175" key="GridCell.Tab.0.bottom" timestamp="1590956679811">
+    <state x="286" y="0" key="#All_in_ComplexRectangle" timestamp="1590958418373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590956679811" />
-    <state width="1306" height="175" key="GridCell.Tab.0.center" timestamp="1590956679810">
+    <state x="286" y="0" key="#All_in_ComplexRectangle/0.0.1366.728@0.0.1366.728" timestamp="1590958418373" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1590959292948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590956679810" />
-    <state width="1306" height="175" key="GridCell.Tab.0.left" timestamp="1590956679810">
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590959292948" />
+    <state width="1306" height="175" key="GridCell.Tab.0.bottom" timestamp="1590960434902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590956679810" />
-    <state width="1306" height="175" key="GridCell.Tab.0.right" timestamp="1590956679811">
+    <state width="1306" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590960434902" />
+    <state width="1306" height="175" key="GridCell.Tab.0.center" timestamp="1590960434901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590956679811" />
+    <state width="1306" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590960434901" />
+    <state width="1306" height="175" key="GridCell.Tab.0.left" timestamp="1590960434901">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590960434901" />
+    <state width="1306" height="175" key="GridCell.Tab.0.right" timestamp="1590960434902">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590960434902" />
     <state x="212" y="59" key="MergeDialog" timestamp="1590958059206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,17 +234,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="105" width="1166" height="528" key="ShowDiffWithBranchDialog/0.0.1366.728@0.0.1366.728" timestamp="1590956168435" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1590958106192">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1590958223521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590958106192" />
-    <state x="388" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590957753638">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590958223521" />
+    <state x="388" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590959760697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="388" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1590957753638" />
-    <state x="454" y="139" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1590957790972">
+    <state x="388" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1590959760697" />
+    <state x="454" y="139" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1590959892856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="139" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590957790972" />
+    <state x="454" y="139" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1590959892856" />
   </component>
 </project>
